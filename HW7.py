@@ -1,7 +1,7 @@
-# Your name:
-# Your student id:
-# Your email:
-# List who you have worked with on this project:
+# Your name: Sincheol Yang
+# Your student id: 9695 5598
+# Your email: sincheol@umich.edu
+# List who you have worked with on this project: Geon Hwangbo (ghwangbo@umich.edu)
 
 import unittest
 import sqlite3
