@@ -176,14 +176,7 @@ def position_birth_search(position, age, cur, conn):
 #     the passed year. 
 
 def make_winners_table(data, cur, conn):
-    cur.execute("DROP TABLE IF EXISTS Winners")
-    cur.execute("CREATE TABLE Winners (id INTEGER PRIMARY KEY, name TEXT)")
-
-    for team in data["teams"]:
-        cur.execute("INSERT INTO Winners (id, name) VALUES (?, ?)",
-                    (team["id"], team["name"]))
-
-    conn.commit()
+    pass
 
 def make_seasons_table(data, cur, conn):
     pass
